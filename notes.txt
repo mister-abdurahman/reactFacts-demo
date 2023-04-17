@@ -1,0 +1,63 @@
+REACT: (Net Ninja)
+
+INTRO:
+#React is a javascript library used to create websites
+React allows us to create SPA's (Single page apps)
+#Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML, 
+Its a point to note that they are usually stored in .jsx files
+
+There are a few ways to start using react app but the easiest is using "create-react-app",
+it is a command-line tool that generates a start-react project and comes with... 
+all the setup and config we need like bubble & webpack
+
+We need bubble & webpack to compile our react code & jsx later into production ready javascript.
+reportWebVitals is a performance file
+
+GETTING STARTED:
+Run: npx create-react-app project-name to create a react-app inside "project-name"
+
+NB: "code ." opens our react app in vscode if we have been running the above steps in the terminal
+
+index.js in src is the entry file of our project and kick starts our application, 
+it takes all of our react application and mounts them to the DOM, strating with the App.js component by default
+App.js is one of the (starter-pack) component files of react.
+
+LINE 6 CLEARS A LOT OF THINGS OUT
+
+In the background, a transpiler called "bubble" translates all the .jsx code into an html file and renders it to the DOM.
+(Using vit is faster than create-react-app)
+
+DIFFERENCE BTW JSX AND HTML:
+Adding classes: in jsx => className="App", NB: we can't use "class" cos class is a reserved keyword in javascript which we would also be writing
+---
+[src/App.js, 10] While we can output a lot of things, the only things we can't output are booleans and objects
+In the curly braces [src/App.js, 9/10], We can also output any statement that returns a valid data,
+Like dynamically rendering a link 
+
+with the help of react snippet extension, we can create a stateless functional component (sfc)
+
+[#5, 4:30]
+
+
+---------r---------------e---------------a-------------c--------------t----------------------
+FreeCodeCamp React:
+
+We set the js file type to text/babel and used the react, reactDOM and babel cdn to get access to the react library. //the easy way to setup react
+
+ReactDOM.render('what to render', 'where to render it') 
+
+We can create custom react components in our js file and render it using the reactDOM.render()
+JSX = Javascript XML.
+
+Our JSX needs to be nested under a single (parent) element
+
+We can use vite to run react locally on our machine.
+What vite does: 
+Transpile (with babel, a js transpiler), 
+Bundle (webpack, parcel, rollup, esbuild [is used])
+
+JSX returns plain javascript objects, has nothing to do with the DOM, ReactDOM converts it to DOM elements
+
+React is written in pascal case "PascalCase".
+
+1:46:06
