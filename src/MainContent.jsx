@@ -1,13 +1,14 @@
 export default function MainContent() {
   return (
-    <div>
-      <h1>Why I'm learning react</h1>
+    <main className="main-content">
+      <h1>Fun fact about React</h1>
       <ul>
-        <li> To be a better developer </li>
-        <li>Strengthen development</li>
-        <li>gfdijknvjdskf</li>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan walke</li>
+        <li>Has over 100k stars on github</li>
+        <li>Is maintained by facebook</li>
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
       </ul>
-    </div>
+    </main>
   );
 }

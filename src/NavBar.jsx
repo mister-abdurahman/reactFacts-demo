@@ -1,17 +1,12 @@
 import reactLogo from "./assets/react.svg";
 
-function Header() {
+function NavBar() {
   return (
-    <header>
-      <nav className="nav-bar">
-        <img src={reactLogo} alt="" className="reactImg" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
+    <nav className="nav-bar">
+      <img src={reactLogo} alt="" className="react-img" />
+      <h3>ReactFacts</h3>
+      <h4>React Course - Project 1</h4>
+    </nav>
   );
 }
-export default Header;
+export default NavBar;
