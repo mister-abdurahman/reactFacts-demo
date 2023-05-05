@@ -1,14 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { Main, Footer } from "./App";
-import NavBar from "./NavBar";
-import MainContent from "./MainContent";
-import "./App.css";
+import App from "./App";
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NavBar />
-    <MainContent />
+    <App />
   </React.StrictMode>
 );
 // <App /> is the name of the function from App.jsx
